@@ -1,7 +1,7 @@
 .cv{
   width: 250px;
   height: 200px;
-  margin-top: 30px;
+  margin-top: 1px;
 }
 
 .info{
@@ -9,9 +9,9 @@
 }
 
 .app{
-  background-color: black;
+  background-color: #36454F;
   color: white;
-  width: 500px;
+  width: 250px;
   margin-left: 700px;
   margin-top: 20px;
   border-radius: 10px;
