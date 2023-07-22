@@ -1,0 +1,43 @@
+.cv{
+  width: 250px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.info{
+  text-align: center;
+}
+
+.app{
+  background-color: black;
+  color: white;
+  width: 500px;
+  margin-left: 700px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+.button{
+  text-align: center;
+}
+
+.button>button{
+  border-radius: 5px;
+  border: none;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+.email{
+
+  margin-right: 15px;
+  background-color: white;
+  color: black;
+  
+}
+
+.linkedin{
+  background-color: #0072b1;
+  color: white;
+}
