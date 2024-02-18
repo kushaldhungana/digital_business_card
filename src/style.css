@@ -1,25 +1,35 @@
-.cv{
-  width: 250px;
+.cv-photo{
   height: 200px;
-  margin-top: 1px;
+  width: 300px;
 }
 
-.info{
-  text-align: center;
+.info-child{
+  justify-content: center;
+  margin-left: 35px;
+  padding: 0px;
+  width: fit-content;
 }
+
 
 .app{
   background-color: #36454F;
+  padding: 10px;
   color: white;
-  width: 250px;
-  margin-left: 700px;
+  width: 350px;
+  margin-left: 500px;
   margin-top: 20px;
   border-radius: 10px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
-.button{
-  text-align: center;
+.button{ 
+  display: flex;  
+  justify-content: space-evenly;
 }
 
 .button>button{
@@ -41,3 +51,22 @@
   background-color: #0072b1;
   color: white;
 }
+
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.about h3{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.description{
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+
